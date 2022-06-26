@@ -1,8 +1,12 @@
 import React from 'react'
+import Nav from '../nav/nav'
+import './header.css'
 
-function header() {
+const header = () => {
   return (
-    <div>header</div>
+    <header className="webHeader">
+      <Nav />
+    </header>
   )
 }
 

@@ -1,0 +1,18 @@
+.navbar {
+    display:flex;
+    padding:1rem;
+    justify-content: space-between;
+    background: transparent;
+    
+}
+
+.navMenu a {
+    padding: 30px 15px 25px 15px;
+}
+
+.navMenu a:hover {
+    background-color:  #333333;
+    color: azure;
+}
+
+
