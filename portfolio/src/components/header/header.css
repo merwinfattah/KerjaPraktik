@@ -1,3 +1,25 @@
 .webHeader {
     background-image: url('../../assets/robert-bock-cV4qkkorDFY-unsplash.jpg');
+    background-size: cover;
+    height: 670px;
+    padding-top: 2rem;
+    
+}
+
+.container-intro {
+    display: flex;
+    justify-content: center;
+
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,52,.5);
+    height: 20rem;
+    width: 30rem;
+    margin-top: 10rem;
+    border-radius: 5%;
+    color: aliceblue;
 }
