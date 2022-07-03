@@ -6,7 +6,7 @@ const nav = () => {
     <nav className="navbar">
       <a href='#Me' className="webTitle">My Portfolio</a>
       <div className="navMenu">
-        <a href='#about'>About</a>
+        <a href='#aboutMe'>About</a>
         <a href='#projects'>Projects</a>
         <a href='#contact'>Contact</a>
       </div>
