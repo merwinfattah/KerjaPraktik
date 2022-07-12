@@ -1,0 +1,52 @@
+.skills_section {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+    margin-top: 1rem;
+    color : aliceblue;
+}
+
+.skills_section div {
+    text-align: center;
+}
+
+.skills_container {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.skills_container > div {
+    background: rgba(240, 172, 85,1);
+    padding: 2rem 2.4rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: ease-in-out;
+    color: rgba(1,13,50,0.95)
+}
+
+.skills_container > div:hover {
+    background: transparent;
+    cursor: default;
+    color : aliceblue;
+    border-color: rgba(240, 172, 85,1);
+    
+}
+
+.skills_content {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    row-gap: 1rem;
+    margin-top: 1rem;
+    gap: 1.5rem;
+}
+
+.skills_item {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+
+

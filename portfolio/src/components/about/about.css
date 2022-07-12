@@ -7,8 +7,9 @@
 .aboutMe div {
     display:block;
     height: 20rem;
-    width: 85rem;
+    width: 72rem;
     padding: 2rem;
     margin-top: 2rem;
     border-radius: 5%;
+    overflow-y: scroll;
 }

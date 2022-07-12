@@ -1,7 +1,9 @@
 .navbar {
     display:flex;
     padding:1rem;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    gap: 40rem;
     background-color: transparent;
     border: none;
     transition: background-color 1s ease 0s;
@@ -9,14 +11,11 @@
 }
 
 .webTitle {
-    margin-left: 7rem;
     color: azure;
     font-size: 0.6cm;
 }
 
-.navMenu {
-    margin-right: 10rem;
-}
+
 
 .navMenu a {
     padding: 18px 15px 18px 15px;
