@@ -1,15 +1,26 @@
 .aboutMe {
     color: aliceblue;
-    display: flex;
-    justify-content: center;
+    margin-top: 2rem;
 }
 
-.aboutMe div {
-    display:block;
-    height: 20rem;
-    width: 72rem;
+.about_container > h2{
+    text-align: center;
     padding: 2rem;
-    margin-top: 2rem;
-    border-radius: 5%;
-    overflow-y: scroll;
 }
+
+.about_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.about_desc {
+    width: 32rem;
+    overflow-y: scroll;
+    max-height: 21rem;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    text-align: justify;
+}
+
